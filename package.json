@@ -1,17 +1,40 @@
 {
-    "buildNpmdoc":"eslint-config-airbnb-base",
+    "author": "kai zhu <kaizhu256@gmail.com>",
+    "buildNpmdoc": "eslint-config-airbnb-base",
+    "description": "api documentation for [eslint-config-airbnb-base (v11.1.2)](https://github.com/airbnb/javascript) [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-config-airbnb-base.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-config-airbnb-base) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base)",
     "devDependencies": {
-        "eslint-config-airbnb-base": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
+        "eslint-config-airbnb-base": "*",
         "utility2": "kaizhu256/node-utility2#alpha"
     },
-    "name":"npmdoc-eslint-config-airbnb-base",
+    "engines": {
+        "node": ">=4.0"
+    },
+    "homepage": "https://github.com/npmdoc/node-npmdoc-eslint-config-airbnb-base",
+    "keywords": [
+        "documentation",
+        "eslint-config-airbnb-base"
+    ],
+    "license": "MIT",
+    "main": "lib.npmdoc_eslint_config_airbnb_base.js",
+    "name": "npmdoc-eslint-config-airbnb-base",
+    "nameAlias": "npmdoc_eslint_config_airbnb_base",
+    "nameOriginal": "npmdoc-eslint-config-airbnb-base",
+    "os": [
+        "darwin",
+        "linux"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/npmdoc/node-npmdoc-eslint-config-airbnb-base.git"
     },
     "scripts": {
-        "build-ci": "utility2 shReadmeTest build_ci.sh"
+        "build-ci": "utility2 shReadmeTest build_ci.sh",
+        "env": "env",
+        "heroku-postbuild": "(set -e; npm install \"kaizhu256/node-utility2#alpha\"; utility2 shDeployHeroku)",
+        "postinstall": "if [ -f npm_scripts.sh ]; then ./npm_scripts.sh postinstall; fi",
+        "start": "(set -e; export PORT=${PORT:-8080}; utility2 start test.js)",
+        "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
     "version": "0.0.1"
 }
