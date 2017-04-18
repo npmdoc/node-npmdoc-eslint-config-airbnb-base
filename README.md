@@ -1,9 +1,14 @@
-# api documentation for  [eslint-config-airbnb-base (v11.1.2)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-config-airbnb-base.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-config-airbnb-base) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base)
+# npmdoc-eslint-config-airbnb-base
+
+#### api documentation for  [eslint-config-airbnb-base (v11.1.3)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-config-airbnb-base.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-config-airbnb-base) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base)
+
 #### Airbnb's base JS ESLint config, following our styleguide
 
-[![NPM](https://nodei.co/npm/eslint-config-airbnb-base.png?downloads=true)](https://www.npmjs.com/package/eslint-config-airbnb-base)
+[![NPM](https://nodei.co/npm/eslint-config-airbnb-base.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/eslint-config-airbnb-base)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb-base/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-eslint-config-airbnb-base_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb-base/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb-base/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb-base/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb-base/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb-base/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-eslint-config-airbnb-base/build/screenCapture.npmPackageListing.svg)
 
@@ -30,7 +35,6 @@
         },
         {
             "name": "Jordan Harband",
-            "email": "ljharb@gmail.com",
             "url": "http://ljharb.codes"
         },
         {
@@ -44,7 +48,7 @@
         "babel-preset-airbnb": "^2.2.3",
         "babel-tape-runner": "^2.0.1",
         "editorconfig-tools": "^0.1.1",
-        "eslint": "^3.18.0",
+        "eslint": "^3.19.0",
         "eslint-find-rules": "^1.14.3",
         "eslint-plugin-import": "^2.2.0",
         "in-publish": "^2.0.0",
@@ -53,8 +57,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "259209a7678bf693e31cbe8f953f206b6aa7ccc3",
-        "tarball": "https://registry.npmjs.org/eslint-config-airbnb-base/-/eslint-config-airbnb-base-11.1.2.tgz"
+        "shasum": "0e8db71514fa36b977fbcf977c01edcf863e0cf0",
+        "tarball": "https://registry.npmjs.org/eslint-config-airbnb-base/-/eslint-config-airbnb-base-11.1.3.tgz"
     },
     "engines": {
         "node": ">= 4"
@@ -72,21 +76,18 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "airbnb",
-            "email": "jordan.harband+npm@airbnb.com"
+            "name": "airbnb"
         },
         {
-            "name": "ljharb",
-            "email": "ljharb@gmail.com"
+            "name": "ljharb"
         }
     ],
     "name": "eslint-config-airbnb-base",
     "optionalDependencies": {},
     "peerDependencies": {
-        "eslint": "^3.18.0",
+        "eslint": "^3.19.0",
         "eslint-plugin-import": "^2.2.0"
     },
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/airbnb/javascript.git"
@@ -100,22 +101,9 @@
         "tests-only": "babel-tape-runner ./test/test-*.js",
         "travis": "npm run --silent test"
     },
-    "version": "11.1.2"
+    "version": "11.1.3"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module eslint-config-airbnb-base](#apidoc.module.eslint-config-airbnb-base)
-1.  object <span class="apidocSignatureSpan">eslint-config-airbnb-base.</span>extends
-1.  object <span class="apidocSignatureSpan">eslint-config-airbnb-base.</span>parserOptions
-1.  object <span class="apidocSignatureSpan">eslint-config-airbnb-base.</span>rules
-
-
-
-# <a name="apidoc.module.eslint-config-airbnb-base"></a>[module eslint-config-airbnb-base](#apidoc.module.eslint-config-airbnb-base)
 
 
 
