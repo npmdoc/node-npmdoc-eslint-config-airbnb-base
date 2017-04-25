@@ -1,6 +1,6 @@
 # npmdoc-eslint-config-airbnb-base
 
-#### api documentation for  [eslint-config-airbnb-base (v11.1.3)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-config-airbnb-base.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-config-airbnb-base) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base)
+#### basic api documentation for  [eslint-config-airbnb-base (v11.1.3)](https://github.com/airbnb/javascript)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-config-airbnb-base.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-config-airbnb-base) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-config-airbnb-base)
 
 #### Airbnb's base JS ESLint config, following our styleguide
 
@@ -101,7 +101,8 @@
         "tests-only": "babel-tape-runner ./test/test-*.js",
         "travis": "npm run --silent test"
     },
-    "version": "11.1.3"
+    "version": "11.1.3",
+    "bin": {}
 }
 ```
 
